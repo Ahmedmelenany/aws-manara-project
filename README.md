@@ -37,3 +37,10 @@
 
 ![target1](./Images/target-2.png) 
 
+## Implementation Steps
+
+- Configure and Setup Security group(SG) that allows only ALB's SG as an Inbound rule to EC2 SG 
+- Setup and Implement ALB and Attach its Security Group
+- Configure ASG as a target listner 
+- Creating and attach lanuch template to ASG 
+- Using ALB DNS Name to test connectivity.
